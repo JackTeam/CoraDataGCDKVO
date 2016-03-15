@@ -56,7 +56,7 @@
 /* Begin PBXFileReference section */
 		AB4156A717CD5E1600917ABA /* Secret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secret.h; sourceTree = "<group>"; };
 		AB4156A817CD5E1600917ABA /* Secret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secret.m; sourceTree = "<group>"; };
-		AB4156AA17CD5E6B00917ABA /* CoraDataGCDKVOTwoThere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoraDataGCDKVOTwoThere.xcdatamodel; sourceTree = "<group>"; };
+		AB4156AA17CD5E6B00917ABA /* CoraDataGCDKVOTwoThere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoraDataGCDKVOTwoThere.xcdatamodel; sourceTree = "<group>"; };
 		AB4156AC17CD839400917ABA /* AFImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageCache.h; sourceTree = "<group>"; };
 		AB4156AD17CD839400917ABA /* AFImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageCache.m; sourceTree = "<group>"; };
 		AB4156AF17CD856E00917ABA /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GIF.h"; sourceTree = "<group>"; };
@@ -477,6 +477,7 @@
 				GCC_PREFIX_HEADER = "CoraDataGCDKVO/CoraDataGCDKVO-Prefix.pch";
 				INFOPLIST_FILE = "CoraDataGCDKVO/CoraDataGCDKVO-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HUAJIE.CoraDataGCDKVO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F4C128CF-540B-4B0D-B255-D4DDA2584E94";
 				WRAPPER_EXTENSION = app;
@@ -490,6 +491,7 @@
 				GCC_PREFIX_HEADER = "CoraDataGCDKVO/CoraDataGCDKVO-Prefix.pch";
 				INFOPLIST_FILE = "CoraDataGCDKVO/CoraDataGCDKVO-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HUAJIE.CoraDataGCDKVO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
